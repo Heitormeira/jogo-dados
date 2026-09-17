@@ -133,7 +133,10 @@ export default function JogoDados() {
 
   return (
     <main style={{ padding: 24, fontFamily: "sans-serif" }}>
-      <h1>Jogo de Dados</h1>
+      <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+        <h1>Jogo de Dados</h1>
+        <img src="/nautico.png" alt="Escudo do Náutico" width={48} height={48} />
+      </div>
 
       {!estado.jogoFinalizado && (
         <p>
